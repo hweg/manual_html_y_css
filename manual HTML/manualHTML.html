@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    function showDiv1(){
+        document.getElementById('div1').style.display = '';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = 'none';
+    }
+ 
+    function showDiv2(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = '';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = 'none';
+    }
+    function showDiv3(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = '';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = 'none';
+    }
+    function showDiv4(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = '';
+        document.getElementById('div5').style.display = 'none';
+    }
+    function showDiv5(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = '';
+    }
+</script>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+<body>
+    
+    <header>HTLM</header>
+
+    <section class="boton">
+    <input type="submit" value="body" onclick="showDiv1()"><a> 
+         </a><br><input type="submit" value="head" onclick="showDiv2()"><a> 
+         </a><br><input type="submit" onclick="showDiv3()" value="div">
+         <br><input type="submit" value="a" onclick="showDiv4()"><a> 
+        </a>
+        <br><input type="submit" value="strong" onclick="showDiv5()"><a> 
+        </a>
+         
+
+         
+</section>
+
+<section class="sectionhtml">
+<div id="div1" style="">
+    <article>Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para cualquier documento ya que indica donde empieza el contenido visible del documento.</article>
+
+    </div>
+
+<div id="div2" style="display: none" >
+    <article>La parte superior del documento HTML, es donde podremos indicar los metadatos: título del documento, hojas de estilos, javaScript, CSS…</article>
+    </div>
+
+<div id="div3" style="display: none" >
+    <article>Un elemento que es usado mayoritariamente para agrupar otros elementos y actuar como plantilla de otros controles. La etiqueta <div> nos ayuda a estructurar el documento en secciones.</article>
+    </div>
+
+<div id="div4" style="">
+    <article>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href, donde pondremos el enlace al que queremos conectar. Otro atributo muy usado es target, el cual nos sirve para indicar si el enlace se abrirá en una nueva ventana o en la misma.</article>
+    
+    </div>    
+    <div id="div5" style="">
+        <article>Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.</article>
+    
+        </div>
+</section>
+
+
+
+<a href="index.html">REGRESAR</a>
+</body>
+</html>
+

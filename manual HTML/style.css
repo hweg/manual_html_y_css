@@ -1,0 +1,68 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANDQ0NDQ0QDQ0NBw0HDQcNDQ8NDQ0PFREWFhURFRUYHSggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ8PFysdFR0tLS0tKy0tLS0tKy0rNy0tKy0rLSstKy0tKy03LSstLSstLS0tLS0rLSsrKy0tKys3K//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAgEH/8QAGRABAQEAAwAAAAAAAAAAAAAAABEBAhJR/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwcF/8QAHREBAQEAAgIDAAAAAAAAAAAAABEBAhIhcTFBUf/aAAwDAQACEQMRAD8A6gxg8fj6ymMCDWpCDWpKs/RVYwN8kaMEg0YEGjAg1tSKRrUiQUxgQUxgQa1IQaMCDRgQaMCDRgQUMrF3IKYwSDBI3FVRIQihIQVRJVIoSJBQkIKEhFUVIRFUSEIoSEFCQiqEtrWcUaJKkFCRIKokIqhIQUVNGvSRVEjMFCQisEjpFUJCChIQUJCChIQUJaQaaysXcFCRIKEhBQkIKMSVcwiqJoaKEiQUJCChIQUJCChIQUJCChIQZTGFdY0rdZU0qaRVKmlIRVKmlIRVKmlIRWa3dRSn0RVKmlIRVKmlIRVKmlIRVKmlIRVKmlIRVKmlIRVKmlIRVKmlIKpWbrKbgqlTSkIqlTSkIqlTSkIqlTVVc40RusYNxqKYwIKYwIRQkIRrUhCNakpCKEhCKYwpCNazDdXOKDUiRY0ZQhFCQhFMYEIorN1iyfCRrUiRYoSUgoSEI0YEI1qQhE0rB0itpWBBtKww6isZTdYu4NpWCQbSsCDaVgQbWpKZhFVlYEI2lYEG0rAg2lYEG0rAg2lYEG0rAhG0rAg2lZhp1G0rAg2lYEE0rB0jUbSsCCsN1NFI2lYJBtKwINpWBBtKwINpWBBtKwINpWBCNpWGEG0rNCDaVgQbSsCDaVgQbWpxu6vUbWVgaRtKwSDaVgQTSpHSNKpUhBVKkIKpUhBVKkIKpWYbq9RtKkSCqVJSCqVIQVSpbi9RuNqd1hIRVKkSCqVIQVSpCCqVIQVSpFhFUqRIKpU0IKpUlIMZTdY67jTa2poQiqysoQiqysoQiqYmt3SIrdZU0pFiqVIQiqVIQiipCEVSpoQiqysCEVRIQja2pCEVSpCCqysoQja2pCEbSsCEVSpCClVFZVkSVNKwbjTaVgQbSsCDaVgQbSsCDaVgQaVgQbSsMINpWBBtKwINpWBBtKwINphDd8XqKsTWBpG0rBINpWBBtKwINquyBSNpWCQTSg6NQpQFhSgEKUAhSgEKUAhSgEMVugs8ImlBFhSgEKUBIUoCxucmUBIUoCwpQCFKAQpQEhSgLClAI//Z);
+    background-size:cover;
+}
+
+body{
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+header, nav, section, img, footer{
+
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav ul a{
+    font-size: 30px;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+header{
+    background: rgba(48,205,202,255);
+}
+
+nav{
+    background: rgba(48,205,202,255);
+
+}
+section{
+    background: rgba(48,205,202,255);
+}
+
+footer{
+    background: rgba(48,205,202,255);
+}
+.photo-container {
+    
+    display: grid;
+    place-content: center;
+  }
+
+.navegar{
+
+    overflow-y: scroll;
+    float:left;
+    width: 20%;
+    height: 600px;
+
+}
+.boton{
+    
+    float:left;
+    width: 20%;
+    height: 200px;
+
+}

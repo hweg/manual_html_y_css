@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    function showDiv1(){
+        document.getElementById('div1').style.display = '';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = 'none';
+    }
+ 
+    function showDiv2(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = '';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = 'none';
+    }
+    function showDiv3(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = '';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = 'none';
+    }
+    function showDiv4(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = '';
+        document.getElementById('div5').style.display = 'none';
+    }
+    function showDiv5(){
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
+        document.getElementById('div3').style.display = 'none';
+        document.getElementById('div4').style.display = 'none';
+        document.getElementById('div5').style.display = '';
+    }
+</script>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+<body>
+    
+    <header>CSS</header>
+
+    <section class="boton">
+    <input type="submit" value="Font Family" onclick="showDiv1()"><a> 
+         </a><br>
+         <input type="submit" value="Propiedades de color y fondo" onclick="showDiv2()"><a> 
+         </a><br>
+         <input type="submit" onclick="showDiv3()" value="Propiedades de texto">
+         
+         <br><input type="submit" value="Propiedades de cuadros" onclick="showDiv4()"><a> 
+        </a>
+
+        <br><input type="submit" value="Propiedades de clasificación" onclick="showDiv5()"><a> 
+        </a>
+
+         
+</section>
+
+<section class="sectionhtml">
+<div id="div1" style="">
+    <article>Las familias de fuentes pueden asignarse por un nombre de fuente específica o por una familia de fuentes genérica. Obviamente, si define una fuente específica, no será tan probable de encontrar como una familia de fuente genérica. Puede hacer múltiples asignaciones de familias, y si hace una asignación de fuente específica, debería ser seguida por un nombre de familia genérica en el caso de que la primera selección no se halle presente.</article>
+
+    </div>
+
+<div id="div2" style="display: none" >
+    <article>La propiedad background-color establece el color del fondo de un elemento.</article>
+    </div>
+
+<div id="div3" style="display: none" >
+    <article>las propiedades de texto permiten modificar ya sea el el tamaño de la fuente hasta ponerlas en negritas</article>
+    </div>
+
+<div id="div4" style="display: none" >
+    <article>Las propiedades CSS de las tablas son las que nos permiten controlar los estilos de los títulos de la tabla, el tamaño de las celdas, las filas y las columnas o espaciado entre los bordes. En la tabla 9.1 se muestran las propiedades de las tablas más utilizadas.</article>
+    </div>
+
+<div id="div5" style="display: none" >
+    <article>La propiedad display se usa para definir un elemento con uno de cuatro valores:
+
+        block (un salto de línea antes y después del elemento)
+        inline (ningún salto de línea antes ni después del elemento)
+        list-item (igual que block, salvo que se agrega un marcador de ítems de lista)
+        none (sin visualización)
+        A cada elemento típicamente se le da un valor de display (visualización) por defecto para el navegador, basado en la interpretación sugerida en la especificación HTML.
+        
+        La propiedad display puede ser peligrosa debido a su capacidad de mostrar elementos en lo que de otro modo sería un formato inapropiado. El uso del valor none desactivará la visualización del elemento al que está asignado, incluyendo cualquier elemento hijo.</article>
+    </div>
+
+
+</section>
+
+<a href="index.html">REGRESAR</a>
+</body>
+</html>
+
